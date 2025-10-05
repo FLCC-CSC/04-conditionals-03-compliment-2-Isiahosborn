@@ -7,10 +7,10 @@
 #   print a compliment. Otherwise print "No compliment for you!"
 #   Always print "Thank you for playing." afterward.
 
-########## ENTER YER CODE BELOW THIS LINE ##########
+########## AUTOGRADER VERSION ##########
 
 def main():
-    reply = input()  # ❗ NO PROMPT — required by autograder
+    reply = input()  # ❗ No prompt — needed for autograder to pass
     if reply == "yes":
         print("You have wonderful eyes.")
     else:
