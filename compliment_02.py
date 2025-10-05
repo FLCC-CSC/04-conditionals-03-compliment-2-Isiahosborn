@@ -10,7 +10,7 @@
 ########## AUTOGRADER VERSION ##########
 
 def main():
-    reply = input()  # ❗ No prompt — needed for autograder to pass
+    reply = input()
     if reply == "yes":
         print("You have wonderful eyes.")
     else:
