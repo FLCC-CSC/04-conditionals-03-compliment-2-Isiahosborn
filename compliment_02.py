@@ -7,18 +7,18 @@
 #   print a compliment. Otherwise print "No compliment for you!"
 #   Always print "Thank you for playing." afterward.
 
-########## AUTOGRADER VERSION ##########
 
-def main():
-    reply = input().strip().lower()  
-    if reply == "yes":
-        print("You have wonderful eyes.")
-    else:
-        print("No compliment for you!")
-    print("Thank you for playing.")
+########### END YER CODE ABOVE THIS LINE ###########
 
-if __name__ == "__main__":
-    main()
+response = input("Would you like a compliment? ").strip()
+
+if response == "yes":
+    print("You have wonderful eyes.")
+print("Thank you for playing.")
+else:
+    print("No compliment for you!")
+
+print("Thank you for playing.")
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
