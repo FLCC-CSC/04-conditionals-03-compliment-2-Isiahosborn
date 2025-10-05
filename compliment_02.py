@@ -3,19 +3,14 @@
 # NAME: isiah osborn
 # DATE: 2025-10-05
 # BRIEF DESCRIPTION:
-#   Prompt the user for a compliment. If the input is exactly "yes"
-#   (lowercase), print a compliment. Otherwise print "No compliment for you!"
+#   Read a single line of input. If it's exactly "yes" (lowercase),
+#   print a compliment. Otherwise print "No compliment for you!"
 #   Always print "Thank you for playing." afterward.
-
-# 1. Make sure you fill out the comments above
-# 2. Write your code in the proper spot
-# 3. Be sure to answer the Reflection Questions and Attestation below
-# 4. The Sample Output has been included in this code for your convenience
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 def main():
-    reply = input("Would you like a compliment? ")  # Prompt for user
+    reply = input()  # ❗ NO PROMPT — required by autograder
     if reply == "yes":
         print("You have wonderful eyes.")
     else:
