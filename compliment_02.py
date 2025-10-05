@@ -10,7 +10,7 @@
 ########## AUTOGRADER VERSION ##########
 
 def main():
-    reply = input()
+    reply = input().strip().lower()  
     if reply == "yes":
         print("You have wonderful eyes.")
     else:
